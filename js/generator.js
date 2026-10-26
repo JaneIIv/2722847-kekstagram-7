@@ -1,5 +1,5 @@
 import { MESSAGES, NAMES, DESCRIPTIONS } from './data.js';
-import { getRandomInt, getRandomEl, createRandomID } from './utils.js';
+import { getRandomInt, getRandomEl, createRandomID } from './util.js';
 
 const getCommentId = createRandomID(1, 10000);
 
